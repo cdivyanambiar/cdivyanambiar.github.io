@@ -172,18 +172,25 @@ footer.section { text-align: center; }
   max-width: 220px;
   margin: 1.5rem auto 0;
 }
-.photo-figure-contain img {
-  aspect-ratio: auto;
-  object-fit: contain;
-  background: #fff;
-  max-height: 420px;
-}
+.photo-figure-sm img { object-position: bottom; }
 .photo-figure img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: 10px;
   border: 1px solid #e5e8eb;
+}
+.photo-figure-contain img {
+  aspect-ratio: auto;
+  object-fit: contain;
+  background: #fff;
+  max-height: 300px;
+}
+.photo-figure-contain-lg img {
+  aspect-ratio: auto;
+  object-fit: contain;
+  background: #fff;
+  max-height: 600px;
 }
 .photo-figure figcaption {
   margin-top: 0.4rem;

@@ -172,6 +172,12 @@ footer.section { text-align: center; }
   max-width: 220px;
   margin: 1.5rem auto 0;
 }
+.photo-figure-contain img {
+  aspect-ratio: auto;
+  object-fit: contain;
+  background: #fff;
+  max-height: 420px;
+}
 .photo-figure img {
   width: 100%;
   aspect-ratio: 4 / 3;

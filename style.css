@@ -67,17 +67,25 @@ a:hover { text-decoration: underline; }
   padding: 4rem 0 3rem;
   text-align: center;
 }
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  text-align: left;
+}
+.hero-text { max-width: 640px; }
 .profile-photo {
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid rgba(255,255,255,0.8);
-  margin-bottom: 1rem;
+  flex-shrink: 0;
 }
 .hero h1 { font-size: 2.5rem; margin-bottom: 0.25rem; }
 .tagline { font-size: 1.15rem; opacity: 0.95; margin: 0 0 1rem; }
-.hero-sub { max-width: 640px; margin: 0 auto 1.5rem; opacity: 0.9; }
+.hero-sub { max-width: 640px; margin: 0 0 1.5rem; opacity: 0.9; }
 .hero-links a {
   color: #fff;
   border: 1px solid rgba(255,255,255,0.6);
@@ -175,4 +183,6 @@ footer.section { text-align: center; }
   .grid-2, .card-grid { grid-template-columns: 1fr; }
   .photo-grid { grid-template-columns: 1fr; }
   .hero h1 { font-size: 2rem; }
+  .hero-content { flex-direction: column; text-align: center; }
+  .hero-sub { margin-left: auto; margin-right: auto; }
 }

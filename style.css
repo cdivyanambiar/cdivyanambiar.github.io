@@ -173,6 +173,7 @@ footer.section { text-align: center; }
   margin: 1.5rem auto 0;
 }
 .photo-figure-sm img { object-position: bottom; }
+.photo-figure-top img { object-position: top; }
 .photo-figure img {
   width: 100%;
   aspect-ratio: 4 / 3;
